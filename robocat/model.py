@@ -713,7 +713,7 @@ class Gato(nn.Module):
         return logits
     
 
-class RoboCat:
+class RoboCat(nn.Module):
     def __init__(
         self,
         num_classes = 1000,
